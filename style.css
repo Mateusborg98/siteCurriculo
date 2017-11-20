@@ -1,0 +1,104 @@
+@charset "ISO-8859-1";
+body{
+	background-image: url("../img/fundo1.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.footer{
+	height: 50px;
+	background-color: #000;
+	border-radius: 3px;
+	color: #fff;
+	text-align: center;
+	padding-top: 15px;
+	float: left;
+}
+.section {
+	height:520px;
+	color: #fff;
+	margin: 0px 0px 20px 17%;
+	background-color: rgba(0,0,0,0.5);
+	float: left;
+	border-radius: 10px;
+}
+.curriculo{
+	height:650px;
+	color: #fff;
+	margin: 0px 0px 20px 17%;
+	background-color: rgba(0,0,0,0.5);
+	float: left;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: monospace;
+}
+h2{
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+h4{
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+@media screen and (max-width: 767px) { 
+	body{
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.section {
+		width: 100%;
+		margin-left: 0px;
+	}
+	.curriculo{
+		height: 90%;
+		font-size: 15px;
+	}
+	.footer{
+		width: 100%;
+	}
+	.btn{
+		width: 90px;
+		margin-left: 15px;
+	}
+}
+@media screen and (min-width: 768px) { 
+	.section {
+		width: 65%;
+	}
+	.btn{
+		width: 90px;
+		margin-left: 15px;
+	}
+	.curriculo{
+		height: 90%;
+	}
+}
+@media screen and (min-width: 992px) { 
+	.section {
+		width: 65%;
+	}
+	.text{
+		width: 100%;
+	}
+	.btn{
+		margin-top: 30px;
+		width: 90px;
+	}
+}
+@media screen and (min-width: 1200px) { 
+	form{
+		margin-left: 15%;
+		width: 100%;
+	}
+	.text{
+		width: 67%;
+	}
+	.btn{
+		width: 90px;
+		margin-top: 400px;
+		float:left;
+		margin-left:50px;
+		position: absolute;
+	}
+}
